@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Redirecting...</title>
+  <script src="./target.js"></script>
+  <script>
+    (function () {
+      if (!window.REDIRECT_URL) {
+        document.body.innerHTML = "Redirect target is not configured.";
+        return;
+      }
+      window.location.replace(window.REDIRECT_URL);
+    })();
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
