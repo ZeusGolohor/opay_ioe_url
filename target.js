@@ -1,1 +1,1 @@
-window.REDIRECT_URL = "https://yneda8qdr6al.shares.zrok.io";
+window.REDIRECT_URL = "https://0wk67e5z9py8.shares.zrok.io";
